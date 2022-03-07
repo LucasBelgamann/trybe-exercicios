@@ -8,27 +8,39 @@
 // console.log(birthYear);
 // console.log(birthCity);
 
-let patientId = '50';
-let isEnrolled = true;
-const patientInfo = {
-  firstName: 'Ana',
-  lastName: 'Santos',
-};
-const patientEmail = 'ana@email.com';
+// let patientId = '50';
+// let isEnrolled = true;
+// const patientInfo = {
+//   firstName: 'Ana',
+//   lastName: 'Santos',
+// };
+// const patientEmail = 'ana@email.com';
 
-console.log(typeof patientId);
-console.log(typeof isEnrolled);
-console.log(typeof patientInfo);
-console.log(typeof firstName);
-console.log(typeof lastName);
-console.log(typeof patientEmail);
-console.log(typeof patientAge)
+// console.log(typeof patientId);
+// console.log(typeof isEnrolled);
+// console.log(typeof patientInfo);
+// console.log(typeof firstName);
+// console.log(typeof lastName);
+// console.log(typeof patientEmail);
+// console.log(typeof patientAge)
 
-const base = 5;
-let height = 8;
-const area = (3 * 8);
-const perimeter = base + height + area;
+// const base = 5;
+// let height = 8;
+// const area = (3 * 8);
+// const perimeter = base + height + area;
 
-console.log(base, height, area);
-console.log(area);
-console.log(perimeter);
+// console.log(base, height, area);
+// console.log(area);
+// console.log(perimeter);
+
+const notaDoLucas = 85;
+
+if (notaDoLucas >= 80) {
+    console.log("Parabéns, você foi aprovada(a)!");
+}
+else if (notaDoLucas < 80 && notaDoLucas >= 60) {
+    console.log("Você está na nossa lista de espera");
+}
+else {
+    console.log("Você foi reprovada(o)");
+}
