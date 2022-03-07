@@ -33,14 +33,33 @@
 // console.log(area);
 // console.log(perimeter);
 
-const notaDoLucas = 85;
+// const notaDoLucas = 85;
 
-if (notaDoLucas >= 80) {
-    console.log("Parabéns, você foi aprovada(a)!");
-}
-else if (notaDoLucas < 80 && notaDoLucas >= 60) {
-    console.log("Você está na nossa lista de espera");
-}
-else {
-    console.log("Você foi reprovada(o)");
+// if (notaDoLucas >= 80) {
+//     console.log("Parabéns, você foi aprovada(o)!");
+// }
+// else if (notaDoLucas < 80 && notaDoLucas >= 60) {
+//     console.log("Você está na nossa lista de espera");
+// }
+// else {
+//     console.log("Você foi reprovada(o)");
+// }
+
+let estatosDoProcesso = 'reprovada';
+
+switch(estatosDoProcesso) {
+    case 'aprovada':
+        console.log('Candidato aprovado');
+        break;
+
+    case 'lista':
+        console.log('Candidato na lista');
+        break;
+
+    case 'reprovada':
+        console.log('Candidato reprovado');
+        break;
+
+    default:
+        console.log('não se aplica');  
 }
