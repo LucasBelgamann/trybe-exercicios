@@ -45,21 +45,54 @@
 //     console.log("Você foi reprovada(o)");
 // }
 
-let estatosDoProcesso = 'reprovada';
+// let estatosDoProcesso = 'reprovada';
 
-switch(estatosDoProcesso) {
-    case 'aprovada':
-        console.log('Candidato aprovado');
-        break;
+// switch(estatosDoProcesso) {
+//     case 'aprovada':
+//         console.log('Candidato aprovado');
+//         break;
 
-    case 'lista':
-        console.log('Candidato na lista');
-        break;
+//     case 'lista':
+//         console.log('Candidato na lista');
+//         break;
 
-    case 'reprovada':
-        console.log('Candidato reprovado');
-        break;
+//     case 'reprovada':
+//         console.log('Candidato reprovado');
+//         break;
 
-    default:
-        console.log('não se aplica');  
-}
+//     default:
+//         console.log('não se aplica');  
+// }
+
+const a1 = 50;
+const b1 = 30;
+
+console.log(a1 + b1);
+
+const a2 = 50;
+const b2 = 30;
+
+console.log(a2 - b2);
+
+const a3 = 50;
+const b3 = 30;
+
+console.log(a3 * b3);
+
+const a4 = 50;
+const b4 = 30;
+
+console.log(a4 / b4);
+
+const a5 = 50;
+const b5 = 30;
+
+console.log(a5 % b5);
+
+
+
+
+
+
+
+
