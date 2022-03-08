@@ -122,20 +122,24 @@
 //     console.log('zero');
 // }
 
-const lado1 = 70;
-const lado2 = 40;
-const lado3 = 70;
-const soma = lado1 + lado2 + lado3;
+// const lado1 = 70;
+// const lado2 = 40;
+// const lado3 = 70;
+// const soma = lado1 + lado2 + lado3;
 
-if (soma === 180) {
-    console.log(true);
-}
-else if (soma < 180) {
-    console.log(false);
-}
-else {
-    console.log('Erro!!');
-}
+// if (soma === 180) {
+//     console.log(true);
+// }
+// else if (soma < 180) {
+//     console.log(false);
+// }
+// else {
+//     console.log('Erro!!');
+// }
+
+
+
+
 
 
 
