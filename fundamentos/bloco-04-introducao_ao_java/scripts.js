@@ -137,6 +137,28 @@
 //     console.log('Erro!!');
 // }
 
+const peca = 'peão';
+
+switch (peca) {
+    case 'bispo':
+        console.log('Move-se na diagonal');
+        break;
+    case 'cavalo':
+        console.log('O movimento executado pelo Cavalo é conhecido por “um-dois” ou “em L”');
+        break;
+    case 'peão':
+        console.log('Move-se sempre uma casa para frente');
+        break;
+    case 'rei':
+        console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez');
+        break;
+    default:
+        console.log('Peça invalida');
+}
+
+
+
+
 
 
 
