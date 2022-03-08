@@ -89,9 +89,9 @@
 
 // console.log(a5 % b5);
 
-const a = 85;
-const b = 73;
-const c = 89;
+// const a = 85;
+// const b = 73;
+// const c = 89;
 
 // if (a < b) {
 //     console.log('O maior valor é ', b);
@@ -100,17 +100,27 @@ const c = 89;
 //     console.log('O maior valor é ', a);
 // } 
 
-if (a >= b && a >= c) {
-    console.log('O maior numero é ', a);
+// if (a >= b && a >= c) {
+//     console.log('O maior numero é ', a);
+// }
+// else if (b >= a && b >= c) {
+//     console.log('O maior valor é ', b);
+// }
+// else {
+//     console.log('o maior valor é ', c);
+// }
+
+const valor = -5;
+
+if (valor > 0) {
+    console.log('positive');
 }
-else if (b >= a && b >= c) {
-    console.log('O maior valor é ', b);
+else if (valor < 0) {
+    console.log('negative');
 }
 else {
-    console.log('o maior valor é ', c);
+    console.log('zero');
 }
-
-
 
 
 
