@@ -110,16 +110,31 @@
 //     console.log('o maior valor é ', c);
 // }
 
-const valor = -5;
+// const valor = -5;
 
-if (valor > 0) {
-    console.log('positive');
+// if (valor > 0) {
+//     console.log('positive');
+// }
+// else if (valor < 0) {
+//     console.log('negative');
+// }
+// else {
+//     console.log('zero');
+// }
+
+const lado1 = 70;
+const lado2 = 40;
+const lado3 = 70;
+const soma = lado1 + lado2 + lado3;
+
+if (soma === 180) {
+    console.log(true);
 }
-else if (valor < 0) {
-    console.log('negative');
+else if (soma < 180) {
+    console.log(false);
 }
 else {
-    console.log('zero');
+    console.log('Erro!!');
 }
 
 
