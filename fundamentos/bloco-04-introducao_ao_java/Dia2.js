@@ -6,16 +6,31 @@
 // console.log(indexOfPortfolio);
 // console.log(menu);
 
-let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+// let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-for (let index = 0; index < groceryList.length; index++) {
-    console.log(groceryList[index]);
+// for (let index = 0; index < groceryList.length; index++) {
+//     console.log(groceryList[index]);
+// }
+
+// let names = ['João', 'Maria', 'Antônio', 'Margarida'];
+
+// for (nomes of names) {
+//     console.log(nomes);
+// }
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+console.log(numbers);
+
+// for(let i = 0; i < numbers.length; i += 1) {
+//     console.log(numbers[i]);
+// }
+
+let soma = 0;
+
+for(let i = 0; i < numbers.length; i += 1) {
+    soma += numbers[i];
 }
 
-let names = ['João', 'Maria', 'Antônio', 'Margarida'];
-
-for (nomes of names) {
-    console.log(nomes);
-}
-
+console.log(soma);
 
