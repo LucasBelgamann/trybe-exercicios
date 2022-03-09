@@ -137,51 +137,74 @@
 //     console.log('Erro!!');
 // }
 
-// const peca = 'peão';
+const peca = 'peão';
 
-// switch (peca) {
-//     case 'bispo':
-//         console.log('Move-se na diagonal');
-//         break;
-//     case 'cavalo':
-//         console.log('O movimento executado pelo Cavalo é conhecido por “um-dois” ou “em L”');
-//         break;
-//     case 'peão':
-//         console.log('Move-se sempre uma casa para frente');
-//         break;
-//     case 'rei':
-//         console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez');
-//         break;
-//     default:
-//         console.log('Peça invalida');
+switch (peca) {
+    case 'bispo':
+        console.log('Move-se na diagonal');
+        break;
+    case 'cavalo':
+        console.log('O movimento executado pelo Cavalo é conhecido por “um-dois” ou “em L”');
+        break;
+    case 'peão':
+        console.log('Move-se sempre uma casa para frente');
+        break;
+    case 'rei':
+        console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez');
+        break;
+    default:
+        console.log('Peça invalida');
+}
+
+
+// const porcentagem = 0;
+
+// if (porcentagem >= 90) {
+//     console.log("A");
+// }
+// else if (porcentagem >= 80) {
+//     console.log("B");
+// }
+// else if (porcentagem >= 70) {
+//     console.log("C");
+// }
+// else if (porcentagem >= 60) {
+//     console.log("D");
+// }
+// else if (porcentagem >= 50) {
+//     console.log("E");
+// }
+// else if (porcentagem < 50) {
+//     console.log('F');
+// }
+// else if (porcentagem = 0 && porcentagem > 100) {
+//     console.log('ERRO!');
 // }
 
+const porcentagem = 90;
 
-const porcentagem = 0;
-
-if (porcentagem >= 90) {
-    console.log("A");
+switch(porcentagem) {
+    case 90:
+        console.log('A');
+        break;
+    case 80:
+        console.log('B');
+        break;
+    case 70:
+        console.log('C');
+        break;
+    case 60:
+        console.log('D');
+        break;
+    case 50:
+        console.log('E');
+        break;
+    case 40:
+        console.log('F');
+        break;
+    default:
+        console.log('Menssagem de ERRO!');
 }
-else if (porcentagem >= 80) {
-    console.log("B");
-}
-else if (porcentagem >= 70) {
-    console.log("C");
-}
-else if (porcentagem >= 60) {
-    console.log("D");
-}
-else if (porcentagem >= 50) {
-    console.log("E");
-}
-else if (porcentagem < 50) {
-    console.log('F');
-}
-else if (porcentagem = 0 && porcentagem > 100) {
-    console.log('ERRO!');
-}
-
-
 
 
 
