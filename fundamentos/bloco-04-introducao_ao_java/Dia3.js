@@ -38,3 +38,10 @@ console.log(newWord);
 
 // 4- Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
 
+//     let palavra = 'arara'
+//     let palindrome = '';
+
+//       for (let index = palavra.length - 1; index >= 0; index -= 1) {
+//           palindrome += palavra[index];
+//     }
+// console.log(palindrome)
