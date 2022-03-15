@@ -37,6 +37,10 @@ function modificarMaiusculo() {
 modificarMaiusculo();
 // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 function exibicao() {
-  document.getElementsByTagName("p");
+  let conteudoDeExib = document.getElementsByTagName("p");
+
+  for (let i = 0; i < conteudoDeExib.length; i += 1) {
+    console.log(conteudoDeExib[i]);
+  }
 }
-console.log(exibicao());
+exibicao();
