@@ -61,7 +61,7 @@
 //         break;
 
 //     default:
-//         console.log('não se aplica');  
+//         console.log('não se aplica');
 // }
 
 // const a1 = 50;
@@ -98,7 +98,7 @@
 // }
 // else {
 //     console.log('O maior valor é ', a);
-// } 
+// }
 
 // if (a >= b && a >= c) {
 //     console.log('O maior numero é ', a);
@@ -156,7 +156,6 @@
 //         console.log('Peça invalida');
 // }
 
-
 // const porcentagem = 0;
 
 // if (porcentagem >= 90) {
@@ -181,36 +180,27 @@
 //     console.log('ERRO!');
 // }
 
-// const porcentagem = 90;
+const porcentagem = 90;
 
-// switch(porcentagem) {
-//     case 90:
-//         console.log('A');
-//         break;
-//     case 80:
-//         console.log('B');
-//         break;
-//     case 70:
-//         console.log('C');
-//         break;
-//     case 60:
-//         console.log('D');
-//         break;
-//     case 50:
-//         console.log('E');
-//         break;
-//     case 40:
-//         console.log('F');
-//         break;
-//     default:
-//         console.log('Menssagem de ERRO!');
-// }
-
-
-
-
-
-
-
-
-
+switch (porcentagem) {
+  case 90:
+    console.log("A");
+    break;
+  case 80:
+    console.log("B");
+    break;
+  case 70:
+    console.log("C");
+    break;
+  case 60:
+    console.log("D");
+    break;
+  case 50:
+    console.log("E");
+    break;
+  case 40:
+    console.log("F");
+    break;
+  default:
+    console.log("Menssagem de ERRO!");
+}
