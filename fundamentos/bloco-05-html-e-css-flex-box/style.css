@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+input {
+  border-radius: 10px;
+}
+
 #login {
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 10px;
@@ -15,13 +19,9 @@ body {
   transform: translate(-50%, -50%);
 }
 
-input {
-  border-radius: 10px;
-}
-
 #entrar {
-    background-color: blueviolet;
-    padding: 10px;
-    border-radius: 5px;
-    width: 100%;
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
 }
