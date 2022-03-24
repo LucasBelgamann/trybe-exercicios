@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+input, textarea {
+    border: none;
+    border-radius: 4px;
+}
+
+#principal-content {
+   margin: 30px;
+   width: 50%;
+   height: 900px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #344E41;
+   padding: 30px;
+   border-radius: 10px;
+   text-align: center;
+   color: white;
+}
+
+#cabecalho {
+    text-align: center;
+    padding:40px;
+    background-color: #3A5A40;
+    width: 50%;
+    margin: 10px auto auto;
+    border-radius: 10px;
+    color: mediumspringgreen;
+    font-size: 25px;
+}
