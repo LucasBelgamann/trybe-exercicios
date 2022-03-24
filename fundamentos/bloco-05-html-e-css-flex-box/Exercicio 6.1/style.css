@@ -11,6 +11,15 @@ input, textarea {
     border-radius: 4px;
 }
 
+button {
+    padding: 5px;
+    width: 25%;
+    background-color: mediumseagreen;
+    border-radius: 5px;
+    color: black
+    
+}
+
 #principal-content {
    margin: 30px;
    width: 50%;
