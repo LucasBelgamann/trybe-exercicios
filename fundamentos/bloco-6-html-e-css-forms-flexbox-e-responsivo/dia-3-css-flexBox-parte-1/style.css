@@ -25,6 +25,10 @@ img {
   color: white;
 }
 
+.container a:hover {
+  background-color: darkslategrey;
+}
+
 .redes-sociais img {
   width: 40px;
 }
