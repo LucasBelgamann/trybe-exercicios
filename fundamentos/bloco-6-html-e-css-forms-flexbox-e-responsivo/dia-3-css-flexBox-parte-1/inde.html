@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox - Align Content</title>
-    <style>
-      .box {
-        color: #9069EF;
-        background-color: rgb(243, 243, 243);
-        border: 2px solid #232525;
-        font-size: 50px;
-        min-height: 60px;
-        margin: 10px 5px;
-        text-align: center;
-        width: 30%;
-      }
-
-      .box-container {
-        /* ADICIONE AQUI SEUS TESTES */
-        background-color: #0fa36b;
-        display: flex;
-        flex-wrap: wrap;
-        height: 600px;
-      }
-    </style>
-
-  </head>
-  <body>
-    <div class="box-container">
-      <div class="box">1</div>
-      <div class="box">2</div>
-      <div class="box">3</div>
-      <div class="box">4</div>
-      <div class="box">5</div>
-      <div class="box">6</div>
-      <div class="box">7</div>
-      <div class="box">8</div>
-      <div class="box">9</div>
-    </div>
-  </body>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+            <img src="trybe.jpg" alt="">
+            <h1>Trybe Tech-Gallery</h1>
+        <nav class="menu">
+            <a href="/">Sing Up</a>
+        </nav>
+    </header>
+    <section class="first-section">
+        <p>Take a look at some of the technologies which you will learn in our fundamentals anda front-end module!</p>
+    </section>
+    <section class="second-section">
+        <div>
+            <h4>HTML</h4>
+            <img src="/imagens.flexBox/htmlLogo.png" alt=""></div>
+        <div>
+            <h4>JavaScript</h4>
+            <img src="/imagens.flexBox/javascriptLogo.svg" alt=""></div>
+        <div>
+            <h4>Linux</h4>
+            <img src="/imagens.flexBox/LinuxLogo.png" alt=""></div>
+        <div>
+            <h4>CSS</h4>
+            <img src="/imagens.flexBox/logoCss.png" alt=""></div>
+        <div>
+            <h4>React</h4>
+            <img src="/imagens.flexBox/reactLogo.png" alt=""></div>
+        <div>
+            <h4>Redux</h4>
+            <img src="/imagens.flexBox/reduxLogo.png" alt=""></div>
+    </section>
+    <div class="linha"></div>
+    <nav class="redes-sociais">
+       <a href=""><img src="/imagens.flexBox/instagram-icone-icon-1.png" alt=""></a>
+       <a href=""><img src="/imagens.flexBox/facebook.png" alt=""></a>
+    </nav>
+</body>
 </html>
