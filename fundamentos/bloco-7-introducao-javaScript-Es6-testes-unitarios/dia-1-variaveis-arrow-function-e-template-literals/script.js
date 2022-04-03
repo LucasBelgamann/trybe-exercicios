@@ -18,3 +18,18 @@ const oddsAndEvens = [13, 3, 4, 10, 7, 2];
 const ordenaNumeros = (oddsAndEvens) => oddsAndEvens.sort();
 
 console.log(`Os numeros ${ordenaNumeros(oddsAndEvens)} se encontraram ordenados de forma crescente!`);
+
+//Segunda parte: Exercicio 1;
+
+const number = (n) => {
+  let fatorial = 1;
+  
+  for (let i = n; i >= 1; i--) {
+    fatorial = fatorial * i;
+  }
+  return fatorial;
+}
+console.log(number(7));
+
+const fatorial = (n) => n === 0? 1 : n === 1? 1 : n * fatorial(n - 1);
+console.log(fatorial(7));
