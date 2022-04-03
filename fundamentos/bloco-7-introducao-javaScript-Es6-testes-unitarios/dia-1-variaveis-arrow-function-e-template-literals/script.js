@@ -31,5 +31,6 @@ const number = (n) => {
 }
 console.log(number(7));
 
+//recursiva
 const fatorial = (n) => n === 0? 1 : n === 1? 1 : n * fatorial(n - 1);
 console.log(fatorial(7));
