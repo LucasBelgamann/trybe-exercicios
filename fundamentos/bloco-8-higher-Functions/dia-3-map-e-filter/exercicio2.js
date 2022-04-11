@@ -6,7 +6,6 @@ const books = [
     author: {
       name: 'George R. R. Martin',
       birthYear: 1948,
-      age: 43,
     },
     releaseYear: 1991,
   },
@@ -17,7 +16,6 @@ const books = [
     author: {
       name: 'J. R. R. Tolkien',
       birthYear: 1892,
-      age: 62,
     },
     releaseYear: 1954,
   },
@@ -28,7 +26,6 @@ const books = [
     author: {
       name: 'Isaac Asimov',
       birthYear: 1920,
-      age: 31,
     },
     releaseYear: 1951,
   },
@@ -39,7 +36,6 @@ const books = [
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
-      age: 45,
     },
     releaseYear: 1965,
   },
@@ -50,7 +46,6 @@ const books = [
     author: {
       name: 'Stephen King',
       birthYear: 1947,
-      age: 39,
     },
     releaseYear: 1986,
   },
@@ -61,7 +56,6 @@ const books = [
     author: {
       name: 'H. P. Lovecraft',
       birthYear: 1890,
-      age: 38,
     },
     releaseYear: 1928,
   },
@@ -70,7 +64,7 @@ let nameAndAge;
 
 nameAndAge = books.map((elemento) => {
     return {
-        age: elemento.author.age,
+        age: elemento.releaseYear - elemento.author.birthYear,
         author: elemento.author.name,
     }
 })
