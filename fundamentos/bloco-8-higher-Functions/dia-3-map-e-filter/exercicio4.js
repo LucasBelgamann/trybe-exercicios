@@ -62,7 +62,7 @@ const books = [
   ];
   
   function oldBooksOrdered() {
-    return books.filter((anos) => 2022 - anos.releaseYear > 60).sort((b, a) => b.releaseYear - a.releaseYear);
+    return books.filter((anos) => 2022 - anos.releaseYear > 60).sort((a, b) => b.releaseYear - a.releaseYear);
   }
 
   console.log(oldBooksOrdered());
