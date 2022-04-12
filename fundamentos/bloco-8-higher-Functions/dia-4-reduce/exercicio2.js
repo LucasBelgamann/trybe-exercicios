@@ -62,8 +62,7 @@ const books = [
 ];
 
 const reduceNames = books.reduce((acc, name) => {
-    acc += name.author.name;
-    return `${acc}, `;
+    return `${acc} ${name.author.name}, `;
 },' ');
   console.log(reduceNames);
 
