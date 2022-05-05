@@ -67,8 +67,8 @@ nameAndAge = books.map((elemento) => {
         age: elemento.releaseYear - elemento.author.birthYear,
         author: elemento.author.name,
     }
-})
-nameAndAge.sort((a, b) => a.age - b.age);
+}).sort((a, b) => a.age - b.age);
+
 
 
 console.log(nameAndAge);
