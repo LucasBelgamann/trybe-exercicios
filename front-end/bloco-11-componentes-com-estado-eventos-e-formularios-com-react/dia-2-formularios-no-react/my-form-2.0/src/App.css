@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size:50px;
+    color: aqua;
+}
+
+fieldset {
+    color: white;
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff,
+}
+
+label {
+    padding: 5px;
+}
